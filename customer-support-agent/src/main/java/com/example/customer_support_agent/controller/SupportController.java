@@ -11,6 +11,8 @@ import com.example.customer_support_agent.service.SupportAgentService;
 @RequiredArgsConstructor
 public class SupportController {
 
+
+    // add comment to explain the purpose of this field
     private final SupportAgentService supportAgentService;
 
     @PostMapping
